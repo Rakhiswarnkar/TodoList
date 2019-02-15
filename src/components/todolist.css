@@ -1,0 +1,43 @@
+html, body, #root{
+    height: 100%;
+}
+.wrapper{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 52px;
+    width: 70%;
+}
+.container{
+    display: flex;
+    max-width: 720px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.list{
+    margin-top: 20px;
+}
+.form-control{
+    width: 70%;
+}
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+.addtodo{
+    border: 0;
+    background-color: #5fab5f;
+    color: white;
+    padding: 0px 12px;
+    border-radius: 5px;
+}
+.delete{
+    border: 0;
+    background-color: #ca524e;
+    color: white;
+    padding: 0px 12px;
+    border-radius: 5px;
+}
